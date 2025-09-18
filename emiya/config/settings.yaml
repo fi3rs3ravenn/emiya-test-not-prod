@@ -1,0 +1,20 @@
+app:
+name: emiya
+morning_ping: "09:00"
+evening_reflect: "21:30"
+initiative_rate_limit_minutes: 45
+window:
+always_on_top: true
+beep: false
+typing_speed_cps_base: 22
+
+
+policy:
+take_note: silent
+run_script: ask
+git_push: forbid
+
+
+triggers:
+vscode_minutes: 15
+idle_minutes: 30
